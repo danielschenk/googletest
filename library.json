@@ -1,5 +1,6 @@
 {
     "name": "googletest",
+    "version": "release-1.8.1",
     "build": {
         "srcFilter": "+<googletest/src/*> -<googletest/src/gtest-all.cc> +<googlemock/src/*> -<googlemock/src/gmock-all.cc>",
         "flags": "-Igoogletest -Igoogletest/include -Igooglemock -Igooglemock/include"
